@@ -1,0 +1,133 @@
+body {
+    background-color: #F5F5F5
+}
+
+nav {
+    list-style-type: none;
+    margin: 20px 120px 20px 150px;   /*Top Right Bottom Left*/
+    padding: 5px 100px 5px 0px;
+    background-color: #DCDCDC;
+    overflow: hidden;
+    border-radius: 50px;
+    }
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: rgb(230, 53, 109);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #7d00fb;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+#bor-rad {
+    border-radius: 140px;
+}
+
+table,th,td {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    padding: 15px;
+    width: auto;
+    }
+
+th{
+    background-color: rgb(169, 100, 233);
+    color: whitesmoke;
+    line-height: 30px;
+}
+
+tr{
+    background-color: #626262;
+}
+
+.description{
+    color: white;
+}
+.img{
+    border-radius: 50%;
+}
+
+h2{
+    text-align: center;
+    color: #9a49eb;
+}
+
+.map{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: fit-content;
+    height: fit-content;
+    margin-left: 230px;
+}
+
+div h2{
+    text-align: center;
+}
+
+#box-model {
+    width: fit-content;
+    padding-left: 100px;
+    padding: 20px;
+    margin: auto;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-text-fill-color:#8800ff;
+    
+}
+
+input{
+    width:400px;
+    height:30px;
+    background-color: #E7E8EA;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    background-color: #9255c5;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-left: 120px;
+}
+
+button:hover{
+    background-color: #b28bd9;
+    color: antiquewhite;
+}
+
+footer{
+    font-weight: bold;
+    text-align: center;
+}
+
+footer:hover{
+    color: #7d00fb;
+}
